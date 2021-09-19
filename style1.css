@@ -1,0 +1,45 @@
+
+/* Border Properties */
+#second-para{
+
+    /* border-style: solid;
+    border-right-style: dashed;
+    border-left-style: dotted;
+    border-top-style: solid;
+    border-bottom-style: double;
+    border-width: 6px;
+    border-color: red; */  
+    /* border-top: 4px dashed blue;
+    border-left: 4px dotted red;
+    border-bottom: 0.25rem solid gray;
+    border-right: 0.25rem double red; */
+    /* border-radius: 1rem; */
+    border: 0.25rem solid rgb(0, 0, 244);
+
+
+    /* PADDING PROPERTIES */
+
+    /* padding: 1.2rem;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    padding-bottom: 2.5rem;
+    padding-right: 3rem; */
+
+    /*  sequence : Top rigth bottom left (CLOCK-WISE) */
+    padding : 1em 2em 1em 2em;
+
+    /* Last Two Value can be Ingnore */
+
+    /* secuence : (top-bottom) (left-right)  */
+    /* padding: 2em 3em;  */
+
+
+
+
+    /* MARGIN PROPERTIES*/
+    
+    margin: 2em;
+    margin-top: 1.2em;
+    /* margin : 3em 3em 3em 3em; */
+    margin : 3em 3em ;
+}

@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+}
+.nav-bar{
+    padding: 0.5em 2em;
+    background-color: lightblue;
+}
+
+/* Button Style in Css */
+
+#btn-login {
+    background-color: lightgreen;
+    padding: 0.5em 1em;
+    border: 0.02em solid black;
+    border-radius: 1.5em;
+    /* outline: 0.01em solid black; */
+
+    /*  for mouse Ponter */
+    cursor: pointer
+}
+
+#btn-login:hover {
+    background-color: coral;
+    color: white
+}
+
+#btn-signup {
+    background-color: white;
+    border: 0.02em solid black;
+    padding: .5em 1em;
+    border-radius: 1.2em;
+    cursor: pointer;
+}
+
+#btn-signup:hover{
+    background-color: lightblue;
+    color: white;
+}
+
+#btn-disabled {
+    background-color: lightblue;
+    border: none;
+    padding: .5em 1em;
+    border-radius: 0.5em;
+
+    /* for button disable  */
+    cursor: not-allowed;
+    opacity: 0.5;
+}

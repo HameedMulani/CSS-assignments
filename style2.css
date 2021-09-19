@@ -1,0 +1,14 @@
+#ordered-list{
+    list-style-type: upper-alpha;
+    list-style-type: lower-latin;
+    width: 500px;
+    list-style-position: inside;
+}
+
+#unordered-list{
+
+    list-style-type: square;
+    /* list-style-type: none; */
+    padding: 0;
+
+}

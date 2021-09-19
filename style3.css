@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+
+#topbar {
+    background-color: lightblue;
+    padding: 1.2em 3em;
+}
+
+.menu-item {
+    font-size: 1.2em;
+    color: black;
+    margin-right: 1.2em;
+
+    /* for removing Underline of link */
+    text-decoration: none;
+}
+
+/*  4 states for Links 
+1. link - This is State where link is not visited
+2. visited - ..
+3. hover - ..
+4. active - This is state when the link is Clicked
+*/
+
+.menu-item:link{
+    color: blue;
+}
+
+.menu-item:visited{
+    color: green;
+}
+
+.menu-item:hover{
+    color: red;
+}
+.menu-item:active{
+    color: black;
+}

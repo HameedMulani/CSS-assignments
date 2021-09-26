@@ -1,0 +1,20 @@
+#div-one{
+    width: 10em;
+    height: 10em;
+    font-size: 1.5em;
+    background-color: lightcoral;
+    padding: 1em;
+}
+#div-two{
+    width: 10em;
+    height: 10em;
+    font-size: 1.5em;
+    background-color: burlywood;
+    margin-top: 0.5em;
+    padding: 1.9em;
+    box-sizing: border-box; /* box sizing for getting exact total div (box size)*/
+}
+img{
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,53 @@
+body{
+margin: 0;
+}
+#topbar{
+    position: sticky;
+    top: 0px;
+    background-color: red;
+    height: 3em;
+}
+
+#logo{
+    margin-left: 2em;
+    margin-right: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 0.8em;
+    color: blueviolet;
+    font-weight: 800;
+}
+
+.menu-item{
+    margin: 0;
+    font-family: cursive;
+    position: relative;
+    top: 0.8em;
+    cursor: pointer;
+    float: right;
+    margin-right: 2em;
+    font-size: 1em;
+}
+
+#article-wrapper{
+    padding: 4% 16%;
+}
+
+article{
+    padding-bottom: 48px;
+    font-size: 1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.25em;
+}
+
+.article-pic{
+    height: 300px;
+    width: 300px;
+    float: left;
+    margin-right: 0.5em;
+}
+
+#second-img{
+    float: right;
+    margin-left: 0.5em;
+}
